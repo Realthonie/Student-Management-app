@@ -67,7 +67,7 @@ if (isset($_POST['delete_student'])){
         <input type="text" class="form-control" id="exampleInputEmail1" name="matric_no" value="<?php echo $row['matric_no']; ?>">
     </div>
     <input type="submit" class="btn btn-success" name="update_student" value="UPDATE">
-    <input type="submit" class="btn btn-primary" name="delete_student" value="CANCEL">
+    <input type="submit" class="btn btn-secondary" name="delete_student" value="CANCEL">
 </form>
 
 
